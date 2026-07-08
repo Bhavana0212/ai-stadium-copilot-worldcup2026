@@ -1,32 +1,23 @@
-# Generative AI Design
+# AI Design
 
-## Google Gemini Integration
+## Gemini Integration
+The assistant leverages Google Gemini to generate helpful, contextual answers that support fans and operators during stadium operations.
 
-Gemini powers:
+## Core Experience Flows
+1. User submits a natural-language request through the assistant UI.
+2. The app validates the prompt and sends it to the Gemini route.
+3. The AI returns a concise response tailored to stadium scenarios.
+4. The UI displays the answer immediately in the chat panel.
 
-- Stadium AI assistant
-- Incident summaries
-- Translation
-- Operational insights
-- Emergency recommendations
+## Supported Use Cases
+- Stadium navigation help
+- Multilingual support
+- Accessibility guidance
+- Emergency instructions
+- Transportation suggestions
 
-
-## AI Workflow
-
-User Request
-
-↓
-
-AI Processing
-
-↓
-
-Gemini Model
-
-↓
-
-Response Generation
-
-↓
-
-User Interface
+## Design Principles
+- Concise and actionable responses
+- Friendly, professional tone
+- Context-aware recommendations
+- Safe fallback behavior when the API is unavailable
